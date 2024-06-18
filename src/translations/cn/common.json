@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "language": {
+      "en": "英语",
+      "es": "西班牙语",
+      "de": "德国",
+      "cn": "中文"
+    },
+    "menu": {
+      "dashboard": "挡泥板",
+      "addone": "添加其他帐户",
+      "logout": "登出",
+      "login": "登录",
+      "register": "登记"
+    }
+  },
+  "sidebar": {
+    "order": {
+      "title": "您的订单",
+      "placeholder": "没有订购的项目",
+      "total": "总"
+    },
+    "tooltip": {
+      "video": {
+        "enable": "关闭相机",
+        "disable": "打开相机"
+      },
+      "mic": {
+        "enable": "关闭麦克风",
+        "disable": "打开麦克风"
+      }
+    },
+    "finish": {
+      "button": "完成顺序",
+      "error": "您没有订购任何产品。",
+      "modal": {
+        "text": "您确定要完成订单吗？",
+        "yes": "是的",
+        "no": "不"
+      }
+    }
+  },
+  "category": {
+    "title": "请选择要订购的类别。",
+    "placeholder": "数据库中没有类别。",
+    "modal": {
+      "title": "选择",
+      "yes": "确认",
+      "no": "取消"
+    }
+  },
+  "product": {
+    "title": "现在选择要添加到订单中的项目。",
+    "placeholder": "该类别没有产品。",
+    "from": "从",
+    "sizeModal": {
+      "title": "你想要什么尺寸？",
+      "size": {
+        "small": "小",
+        "medium": "中等",
+        "large": "大"
+      }
+    },
+    "countModal": {
+      "title": "你想要多少？"
+    },
+    "confirmModal": {
+      "title": "审核项",
+      "table": {
+        "cell1": "名字",
+        "cell2": "大小",
+        "cell3": "价格",
+        "cell4": "数量",
+        "cell5": "总价"
+      },
+      "yes": "确认",
+      "no": "取消"
+    }
+  },
+  "success": {
+    "title": "您的订单已提交！",
+    "content": "请开车到下一个窗口付款并取货。"
+  }
+}

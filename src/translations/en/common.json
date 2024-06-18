@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "language": {
+      "en": "English",
+      "es": "Spanish",
+      "de": "Germany",
+      "cn": "Chinese"
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "addone": "Add another account",
+      "logout": "Sign out",
+      "login": "Log in",
+      "register": "Sign up"
+    }
+  },
+  "sidebar": {
+    "order": {
+      "title": "Your Order",
+      "placeholder": "No ordered items",
+      "total": "Total"
+    },
+    "tooltip": {
+      "video": {
+        "enable": "Turn off camera",
+        "disable": "Turn on camera"
+      },
+      "mic": {
+        "enable": "Turn off mic",
+        "disable": "Turn on mic"
+      }
+    },
+    "finish": {
+      "button": "Finish Order",
+      "error": "You didn't order any product.",
+      "modal": {
+        "text": "Are you sure you want to finish your order?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    }
+  },
+  "category": {
+    "title": "Please select a category to order.",
+    "placeholder": "No categories in the database.",
+    "modal": {
+      "title": "Selected",
+      "yes": "Confirm",
+      "no": "Cancel"
+    }
+  },
+  "product": {
+    "title": "Now select items to add to your order.",
+    "placeholder": "No products for the category.",
+    "from": "From",
+    "sizeModal": {
+      "title": "Which size would you like?",
+      "size": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      }
+    },
+    "countModal": {
+      "title": "How many would you like?"
+    },
+    "confirmModal": {
+      "title": "Review Item",
+      "table": {
+        "cell1": "Name",
+        "cell2": "Size",
+        "cell3": "Price",
+        "cell4": "Quantity",
+        "cell5": "Total Price"
+      },
+      "yes": "Confirm",
+      "no": "Cancel"
+    }
+  },
+  "success": {
+    "title": "Your order has been submited!",
+    "content": "Please drive to the next windows to pay and pick up your order."
+  }
+}

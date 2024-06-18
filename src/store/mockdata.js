@@ -1,0 +1,486 @@
+export const categoryList = [
+  {
+    id: '1',
+    name: "Burgers",
+    imageURL: "/assets/products/burgers/Burgers.jpg"
+  },
+  {
+    id: '2',
+    name: "Desserts",
+    imageURL: "/assets/products/desserts/Tater Tots.jpg"
+  },
+  {
+    id: '3',
+    name: "Drinks",
+    imageURL: "/assets/products/drinks/McCafe.jpg"
+  },
+  {
+    id: '4',
+    name: "Fries",
+    imageURL: "/assets/products/fries/Fries_Sides.jpg"
+  },
+  {
+    id: '5',
+    name: "Fruits",
+    imageURL: "/assets/products/fruits/Fruit.jpg"
+  },
+  {
+    id: '6',
+    name: "Meals",
+    imageURL: "/assets/products/meals/Happy Meals.jpg"
+  }
+];
+
+export const productList = [
+  {
+    id: '1',
+    categoryId: "1",
+    name: "All Day Breakfast",
+    imageURL: "/assets/products/burgers/All Day_Breakfast.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '2',
+    categoryId: "1",
+    name: "Artery Clogger",
+    imageURL: "/assets/products/burgers/Artery Clogger.jpg",
+    price: {
+      "small": 5.99,
+      "medium": 6.18,
+      "large": 6.2
+    }
+  },
+  {
+    id: '3',
+    categoryId: "1",
+    name: "Bacon Burger",
+    imageURL: "/assets/products/burgers/Bacon Burger.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.9
+    }
+  },
+  {
+    id: '4',
+    categoryId: "1",
+    name: "Plain Jane",
+    imageURL: "/assets/products/burgers/Plain Jane.jpg",
+    price: {
+      "small": 4.12,
+      "medium": 4.46,
+      "large": 4.7
+    }
+  },
+  {
+    id: '5',
+    categoryId: "1",
+    name: "Chicken Sandwiches",
+    imageURL: "/assets/products/burgers/Chicken_Sandwiches.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '6',
+    categoryId: "1",
+    name: "Deluxe Burger",
+    imageURL: "/assets/products/burgers/Deluxe Burger.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  // {
+  //   id: '7',
+  //   categoryId: "1",
+  //   name: "Heart Stopper",
+  //   imageURL: "/assets/products/burgers/Heart Stopper.jpg",
+  //   price: {
+  //     "small": 5.54,
+  //     "medium": 5.72,
+  //     "large": 5.8
+  //   }
+  // },
+  // {
+  //   id: '8',
+  //   categoryId: "1",
+  //   name: "Junior Bacon Cheeseburger",
+  //   imageURL: "/assets/products/burgers/Junior Bacon Cheeseburger.jpg",
+  //   price: {
+  //     "small": 5.54,
+  //     "medium": 5.72,
+  //     "large": 5.8
+  //   }
+  // },
+  {
+    id: '9',
+    categoryId: "2",
+    name: "Blueberry Muffin",
+    imageURL: "/assets/products/desserts/Blueberry Muffin.jpg",
+    price: {
+      "small": 4.05,
+      "medium": 4.32,
+      "large": 4.5
+    }
+  },
+  {
+    id: '10',
+    categoryId: "2",
+    name: "Candy",
+    imageURL: "/assets/products/desserts/Candy.jpg",
+    price: {
+      "small": 3.95,
+      "medium": 4.1,
+      "large": 4.3
+    }
+  },
+  {
+    id: '11',
+    categoryId: "2",
+    name: "Cereal",
+    imageURL: "/assets/products/desserts/Cereal.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '12',
+    categoryId: "2",
+    name: "Chocolate Cake",
+    imageURL: "/assets/products/desserts/Chocolate Cake.jpg",
+    price: {
+      "small": 4.67,
+      "medium": 4.85,
+      "large": 5
+    }
+  },
+  {
+    id: '13',
+    categoryId: "2",
+    name: "Desserts_Shakes",
+    imageURL: "/assets/products/desserts/Desserts_Shakes.jpg",
+    price: {
+      "small": 4.8,
+      "medium": 5.1,
+      "large": 5.23
+    }
+  },
+  {
+    id: '14',
+    categoryId: "2",
+    name: "Frapaccino",
+    imageURL: "/assets/products/desserts/Frapaccino.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  // {
+  //   id: '15',
+  //   categoryId: "2",
+  //   name: "Hotcakes",
+  //   imageURL: "/assets/products/desserts/Hotcakes.jpg",
+  //   price: {
+  //     "small": 5.1,
+  //     "medium": 5.23,
+  //     "large": 5.4
+  //   }
+  // },
+  // {
+  //   id: '16',
+  //   categoryId: "2",
+  //   name: "Mayo",
+  //   imageURL: "/assets/products/desserts/Mayo.jpg",
+  //   price: {
+  //     "small": 3.54,
+  //     "medium": 3.75,
+  //     "large": 3.9
+  //   }
+  // },
+  // {
+  //   id: '17',
+  //   categoryId: "2",
+  //   name: "Mustard",
+  //   imageURL: "/assets/products/desserts/Mustard.jpg",
+  //   price: {
+  //     "small": 5.54,
+  //     "medium": 5.72,
+  //     "large": 5.8
+  //   }
+  // },
+  // {
+  //   id: '18',
+  //   categoryId: "2",
+  //   name: "Onion Rings",
+  //   imageURL: "/assets/products/desserts/Onion Rings.jpg",
+  //   price: {
+  //     "small": 5.57,
+  //     "medium": 5.72,
+  //     "large": 6.0
+  //   }
+  // },
+  // {
+  //   id: '19',
+  //   categoryId: "2",
+  //   name: "Tater Tots",
+  //   imageURL: "/assets/products/desserts/Tater Tots.jpg",
+  //   price: {
+  //     "small": 5.54,
+  //     "medium": 5.72,
+  //     "large": 5.8
+  //   }
+  // },
+  // {
+  //   id: '20',
+  //   categoryId: "2",
+  //   name: "Ube Milkshsake",
+  //   imageURL: "/assets/products/desserts/Ube Milkshsake.jpg",
+  //   price: {
+  //     "small": 3.15,
+  //     "medium": 3.28,
+  //     "large": 3.5
+  //   }
+  // },
+  // {
+  //   id: '21',
+  //   categoryId: "2",
+  //   name: "Waffles",
+  //   imageURL: "/assets/products/desserts/waffles.jpg",
+  //   price: {
+  //     "small": 5.54,
+  //     "medium": 5.72,
+  //     "large": 5.8
+  //   }
+  // },
+  {
+    id: '22',
+    categoryId: "3",
+    name: "Almond Milk",
+    imageURL: "/assets/products/drinks/Almond Milk.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '23',
+    categoryId: "3",
+    name: "Avocado Smoothie",
+    imageURL: "/assets/products/drinks/Avocado Smoothie.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '24',
+    categoryId: "3",
+    name: "Coffee",
+    imageURL: "/assets/products/drinks/Coffe.jpg",
+    price: {
+      "small": 4.54,
+      "medium": 4.7,
+      "large": 5
+    }
+  },
+  {
+    id: '25',
+    categoryId: "3",
+    name: "Half and Half",
+    imageURL: "/assets/products/drinks/Half and Half.jpg",
+    price: {
+      "small": 4.54,
+      "medium": 4.72,
+      "large": 4.8
+    }
+  },
+  {
+    id: '26',
+    categoryId: "3",
+    name: "Iced Tea",
+    imageURL: "/assets/products/drinks/Iced Tea.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  {
+    id: '27',
+    categoryId: "3",
+    name: "Oat Milk",
+    imageURL: "/assets/products/drinks/Oat Milk.jpg",
+    price: {
+      "small": 5.54,
+      "medium": 5.72,
+      "large": 5.8
+    }
+  },
+  // {
+  //   id: '28',
+  //   categoryId: "3",
+  //   name: "Tropical Smoothie",
+  //   imageURL: "/assets/products/drinks/Tropical Smoothie.jpg",
+  //   price: {
+  //     "small": 3.15,
+  //     "medium": 3.56,
+  //     "large": 3.82
+  //   }
+  // },
+  // {
+  //   id: '29',
+  //   categoryId: "3",
+  //   name: "Yogurt Parfait",
+  //   imageURL: "/assets/products/drinks/Yogurt Parfait.jpg",
+  //   price: {
+  //     "small": 4.15,
+  //     "medium": 4.56,
+  //     "large": 4.82
+  //   }
+  // },
+  {
+    id: '30',
+    categoryId: "4",
+    name: "Fries",
+    imageURL: "/assets/products/fries/Fries.jpg",
+    price: {
+      "small": 4.15,
+      "medium": 4.56,
+      "large": 4.82
+    }
+  },
+  {
+    id: '31',
+    categoryId: "4",
+    name: "Fries_Sides",
+    imageURL: "/assets/products/fries/Fries_Sides.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '32',
+    categoryId: "5",
+    name: "Fruit",
+    imageURL: "/assets/products/fruits/Fruit.jpg",
+    price: {
+      "small": 5.05,
+      "medium": 5.3,
+      "large": 5.6
+    }
+  },
+  {
+    id: '33',
+    categoryId: "5",
+    name: "Lettuce",
+    imageURL: "/assets/products/fruits/Lettuce.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '34',
+    categoryId: "5",
+    name: "Onions",
+    imageURL: "/assets/products/fruits/Onions.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '35',
+    categoryId: "5",
+    name: "Pickles",
+    imageURL: "/assets/products/fruits/Pickles.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '36',
+    categoryId: "5",
+    name: "Salad",
+    imageURL: "/assets/products/fruits/Salad.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '37',
+    categoryId: "5",
+    name: "Tomatoes",
+    imageURL: "/assets/products/fruits/Tomatoes.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '38',
+    categoryId: "6",
+    name: "Burger Meal",
+    imageURL: "/assets/products/meals/Burger Meal.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '39',
+    categoryId: "6",
+    name: "Fried Chicken Meal",
+    imageURL: "/assets/products/meals/Fried Chicken Meal.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '40',
+    categoryId: "6",
+    name: "Happy Meals",
+    imageURL: "/assets/products/meals/Happy Meals.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+  {
+    id: '41',
+    categoryId: "6",
+    name: "Nugget Meal",
+    imageURL: "/assets/products/meals/Nugget Meal.jpg",
+    price: {
+      "small": 6.05,
+      "medium": 6.3,
+      "large": 6.6
+    }
+  },
+];

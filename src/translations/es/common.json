@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "language": {
+      "en": "Inglés",
+      "es": "Español",
+      "de": "Alemania",
+      "cn": "Chino"
+    },
+    "menu": {
+      "dashboard": "Salpicadero",
+      "addone": "Agregar otra cuenta",
+      "logout": "Cerrar sesión",
+      "login": "Inicia sesión",
+      "register": "Únete"
+    }
+  },
+  "sidebar": {
+    "order": {
+      "title": "Su pedido",
+      "placeholder": "No hay artículos pedidos",
+      "total": "Total"
+    },
+    "tooltip": {
+      "video": {
+        "enable": "Apagar la cámara",
+        "disable": "Encender la cámara"
+      },
+      "mic": {
+        "enable": "Apagar el micrófono",
+        "disable": "Activar el micrófono"
+      }
+    },
+    "finish": {
+      "button": "Orden de finalización",
+      "error": "No pediste ningún producto.",
+      "modal": {
+        "text": "¿Está seguro de que desea finalizar su pedido?",
+        "yes": "Sí",
+        "no": "No"
+      }
+    }
+  },
+  "category": {
+    "title": "Seleccione una categoría para ordenar.",
+    "placeholder": "No hay categorías en la base de datos.",
+    "modal": {
+      "title": "Seleccionado",
+      "yes": "Confirmar",
+      "no": "Cancelar"
+    }
+  },
+  "product": {
+    "title": "Ahora seleccione los artículos para agregar a su pedido.",
+    "placeholder": "No hay productos para la categoría.",
+    "from": "De",
+    "sizeModal": {
+      "title": "¿Qué talla te gustaría?",
+      "size": {
+        "small": "Pequeño",
+        "medium": "Medio",
+        "large": "Grande"
+      }
+    },
+    "countModal": {
+      "title": "¿Cuántos te gustarían?"
+    },
+    "confirmModal": {
+      "title": "Artículo de revisión",
+      "table": {
+        "cell1": "Nombre",
+        "cell2": "Tamaño",
+        "cell3": "Precio",
+        "cell4": "Cantidad",
+        "cell5": "Precio Total"
+      },
+      "yes": "Confirmar",
+      "no": "Cancelar"
+    }
+  },
+  "success": {
+    "title": "¡Su pedido ha sido enviado!",
+    "content": "Conduzca a las siguientes ventanas para pagar y recoger su pedido."
+  }
+}

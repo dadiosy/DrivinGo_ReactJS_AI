@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "language": {
+      "en": "Englisch",
+      "es": "Spanisch",
+      "de": "Deutschland",
+      "cn": "Chinesisch"
+    },
+    "menu": {
+      "dashboard": "Instrumententafel",
+      "addone": "Fügen Sie ein weiteres Konto hinzu",
+      "logout": "Abmelden",
+      "login": "Anmelden",
+      "register": "Anmelden"
+    }
+  },
+  "sidebar": {
+    "order": {
+      "title": "Ihre Bestellung",
+      "placeholder": "Keine bestellten Artikel",
+      "total": "Gesamt"
+    },
+    "tooltip": {
+      "video": {
+        "enable": "Kamera ausschalten",
+        "disable": "Kamera einschalten"
+      },
+      "mic": {
+        "enable": "Schalten Sie das Mikrofon aus",
+        "disable": "Mikrofon einschalten"
+      }
+    },
+    "finish": {
+      "button": "Bestellung beenden",
+      "error": "Sie haben kein Produkt bestellt.",
+      "modal": {
+        "text": "Sind Sie sicher, dass Sie Ihre Bestellung abschließen möchten?",
+        "yes": "Ja",
+        "no": "Nein"
+      }
+    }
+  },
+  "category": {
+    "title": "Bitte wählen Sie eine Kategorie aus, um zu bestellen.",
+    "placeholder": "Keine Kategorien in der Datenbank.",
+    "modal": {
+      "title": "Ausgewählt",
+      "yes": "Bestätigen",
+      "no": "Abbrechen"
+    }
+  },
+  "product": {
+    "title": "Wählen Sie nun Artikel aus, die Sie Ihrer Bestellung hinzufügen möchten.",
+    "placeholder": "Keine Artikel in der Kategorie.",
+    "from": "Von",
+    "sizeModal": {
+      "title": "Welche Größe darf es sein?",
+      "size": {
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß"
+      }
+    },
+    "countModal": {
+      "title": "Wie viele darf es sein?"
+    },
+    "confirmModal": {
+      "title": "Review-Artikel",
+      "table": {
+        "cell1": "Name",
+        "cell2": "Größe",
+        "cell3": "Preis",
+        "cell4": "Menge",
+        "cell5": "Gesamtpreis"
+      },
+      "yes": "Bestätigen",
+      "no": "Abbrechen"
+    }
+  },
+  "success": {
+    "title": "Ihre Bestellung wurde abgeschickt!",
+    "content": "Bitte fahren Sie zu den nächsten Fenstern, um zu bezahlen und Ihre Bestellung abzuholen."
+  }
+}

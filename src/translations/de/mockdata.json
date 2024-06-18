@@ -1,0 +1,366 @@
+{
+  "categoryList": [
+    {
+      "id": "1",
+      "name": "Burger",
+      "imageURL": "/assets/products/burgers/Burgers.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Desserts",
+      "imageURL": "/assets/products/desserts/Tater Tots.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Getränke",
+      "imageURL": "/assets/products/drinks/McCafe.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Pommes",
+      "imageURL": "/assets/products/fries/Fries_Sides.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Früchte",
+      "imageURL": "/assets/products/fruits/Fruit.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Verpflegung",
+      "imageURL": "/assets/products/meals/Happy Meals.jpg"
+    }
+  ],
+  "productList": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "name": "Ganztägiges Frühstück",
+      "imageURL": "/assets/products/burgers/All Day_Breakfast.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "name": "Arterienverstopfung",
+      "imageURL": "/assets/products/burgers/Artery Clogger.jpg",
+      "price": {
+        "small": 5.99,
+        "medium": 6.18,
+        "large": 6.2
+      }
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "name": "Speck-Burger",
+      "imageURL": "/assets/products/burgers/Bacon Burger.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.9
+      }
+    },
+    {
+      "id": "4",
+      "categoryId": "1",
+      "name": "Plain Jane",
+      "imageURL": "/assets/products/burgers/Plain Jane.jpg",
+      "price": {
+        "small": 4.12,
+        "medium": 4.46,
+        "large": 4.7
+      }
+    },
+    {
+      "id": "5",
+      "categoryId": "1",
+      "name": "Hühnchen-Sandwiches",
+      "imageURL": "/assets/products/burgers/Chicken_Sandwiches.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "6",
+      "categoryId": "1",
+      "name": "Deluxe Burger",
+      "imageURL": "/assets/products/burgers/Deluxe Burger.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "9",
+      "categoryId": "2",
+      "name": "Blaubeer-Muffin",
+      "imageURL": "/assets/products/desserts/Blueberry Muffin.jpg",
+      "price": {
+        "small": 4.05,
+        "medium": 4.32,
+        "large": 4.5
+      }
+    },
+    {
+      "id": "10",
+      "categoryId": "2",
+      "name": "Süßigkeiten",
+      "imageURL": "/assets/products/desserts/Candy.jpg",
+      "price": {
+        "small": 3.95,
+        "medium": 4.1,
+        "large": 4.3
+      }
+    },
+    {
+      "id": "11",
+      "categoryId": "2",
+      "name": "Getreide",
+      "imageURL": "/assets/products/desserts/Cereal.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "12",
+      "categoryId": "2",
+      "name": "Schokoladenkuchen",
+      "imageURL": "/assets/products/desserts/Chocolate Cake.jpg",
+      "price": {
+        "small": 4.67,
+        "medium": 4.85,
+        "large": 5
+      }
+    },
+    {
+      "id": "13",
+      "categoryId": "2",
+      "name": "Desserts_Shakes",
+      "imageURL": "/assets/products/desserts/Desserts_Shakes.jpg",
+      "price": {
+        "small": 4.8,
+        "medium": 5.1,
+        "large": 5.23
+      }
+    },
+    {
+      "id": "14",
+      "categoryId": "2",
+      "name": "Frapaccino",
+      "imageURL": "/assets/products/desserts/Frapaccino.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "22",
+      "categoryId": "3",
+      "name": "Mandelmilch",
+      "imageURL": "/assets/products/drinks/Almond Milk.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "23",
+      "categoryId": "3",
+      "name": "Avocado-Smoothie",
+      "imageURL": "/assets/products/drinks/Avocado Smoothie.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "24",
+      "categoryId": "3",
+      "name": "Kaffee",
+      "imageURL": "/assets/products/drinks/Coffe.jpg",
+      "price": {
+        "small": 4.54,
+        "medium": 4.7,
+        "large": 5
+      }
+    },
+    {
+      "id": "25",
+      "categoryId": "3",
+      "name": "Halb und halb",
+      "imageURL": "/assets/products/drinks/Half and Half.jpg",
+      "price": {
+        "small": 4.54,
+        "medium": 4.72,
+        "large": 4.8
+      }
+    },
+    {
+      "id": "26",
+      "categoryId": "3",
+      "name": "Eistee",
+      "imageURL": "/assets/products/drinks/Iced Tea.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "27",
+      "categoryId": "3",
+      "name": "Hafermilch",
+      "imageURL": "/assets/products/drinks/Oat Milk.jpg",
+      "price": {
+        "small": 5.54,
+        "medium": 5.72,
+        "large": 5.8
+      }
+    },
+    {
+      "id": "30",
+      "categoryId": "4",
+      "name": "Pommes",
+      "imageURL": "/assets/products/fries/Fries.jpg",
+      "price": {
+        "small": 4.15,
+        "medium": 4.56,
+        "large": 4.82
+      }
+    },
+    {
+      "id": "31",
+      "categoryId": "4",
+      "name": "Fries_Sides",
+      "imageURL": "/assets/products/fries/Fries_Sides.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "32",
+      "categoryId": "5",
+      "name": "Obst",
+      "imageURL": "/assets/products/fruits/Fruit.jpg",
+      "price": {
+        "small": 5.05,
+        "medium": 5.3,
+        "large": 5.6
+      }
+    },
+    {
+      "id": "33",
+      "categoryId": "5",
+      "name": "Salat",
+      "imageURL": "/assets/products/fruits/Lettuce.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "34",
+      "categoryId": "5",
+      "name": "Zwiebeln",
+      "imageURL": "/assets/products/fruits/Onions.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "35",
+      "categoryId": "5",
+      "name": "Saure Gurken",
+      "imageURL": "/assets/products/fruits/Pickles.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "36",
+      "categoryId": "5",
+      "name": "Salat",
+      "imageURL": "/assets/products/fruits/Salad.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "37",
+      "categoryId": "5",
+      "name": "Tomaten",
+      "imageURL": "/assets/products/fruits/Tomatoes.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "38",
+      "categoryId": "6",
+      "name": "Burger-Mahlzeit",
+      "imageURL": "/assets/products/meals/Burger Meal.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "39",
+      "categoryId": "6",
+      "name": "Gebratenes Hähnchengericht",
+      "imageURL": "/assets/products/meals/Fried Chicken Meal.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "40",
+      "categoryId": "6",
+      "name": "Glückliche Mahlzeiten",
+      "imageURL": "/assets/products/meals/Happy Meals.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    },
+    {
+      "id": "41",
+      "categoryId": "6",
+      "name": "Nugget-Mahlzeit",
+      "imageURL": "/assets/products/meals/Nugget Meal.jpg",
+      "price": {
+        "small": 6.05,
+        "medium": 6.3,
+        "large": 6.6
+      }
+    }
+  ]
+}
